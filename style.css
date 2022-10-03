@@ -1,1 +1,174 @@
-v
+body {
+  font-size: 18px;
+  color: #2D3748;
+  font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+  
+ 
+  background-size: cover;
+
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: #4299E1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 300px auto 60px;
+  /* height: 100vh; */
+  width: 70%;
+  margin: 0 auto;
+  padding: top 100px;
+  
+}
+
+
+/*HEADER*/
+
+header {
+  background-color: #63B3ED;
+  grid-column-start: span 3;
+  height: 85%;
+  padding-top: 10px;
+
+}
+/**Header Image*/
+#blogpic{
+  border-radius: 100% 100% 100% 100%;
+  width: 100px;
+ float: center;
+ display: block;
+margin-left: auto;
+margin-right: auto;
+
+  } 
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font: size 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}  
+h2{
+      font-size: 32px;
+      color:#48BB78;
+  }
+
+#bh{
+  color: #718096;
+}
+
+
+#Q1{
+  TEXT-ALIGN:CENTER;
+  color: #FFFFFF;
+}
+
+
+
+
+#magcover {
+  float:right;
+ width: 300px;
+ padding: 10px;
+
+}
+
+#littlecover {
+  float:left;
+ width: 300px;
+ padding: 10px;
+
+}
+
+#sm, #arc{
+  color:  #48BB78;
+}
+
+#abt{
+  color:#000000;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: Georgia,
+  'Times New Roman', Times, serif;
+}
+
+/* Navigation */
+
+
+
+aside {
+  background-color:#E2E8F0;
+  grid-column-start: span 1;
+width: 90%;
+height: 20%;
+box-sizing: border-box;
+display: inline;
+font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+font-size: 18px;
+  color: #2D3748;
+}
+
+main {
+  background-color: #fffffc;
+  grid-column-start: span 2;
+
+}
+
+
+/* Aside */
+aside .about {
+  padding: 64px;
+}
+
+aside .socialm,
+.archives {
+  margin-top: 60px;
+}
+
+/* Blog */
+
+.blog-post {
+  padding: 32px;
+}
+
+footer {
+  background-color:#2C5282;
+  grid-column-start: span 3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#ft{
+  color: #FFFFFF;
+}
+
+
+
+
+
